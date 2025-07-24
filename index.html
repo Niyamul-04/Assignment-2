@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Flower Market</title>
 </head>
-<body>
-       
+<body class="bg-gray-50">
+  <header class="bg-white shadow-sm">
+    <nav class="max-w-[1140px] mx-auto flex items-center justify-between px-4 h-[54px] md:h-[71px]">
+      
+      <!-- Logo/Website Name -->
+      <a href="#" class="flex items-center space-x-2">
+        <img src="assets/logo.png" alt="Logo" class="h-10 md:h-12">
+        <span class="text-xl font-semibold text-gray-800"></span>
+      </a>
+      
+      <!-- Desktop Menu (Hidden on mobile) -->
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="A" class="text-black-600 hover:text-gray-900">Home</a>
+        <a href="B" class="text-gray-600 hover:text-gray-900">Shop</a>
+        <a href="C" class="text-gray-600 hover:text-gray-900">About Us</a>
+      </div>
+      
+      <!-- Cart (Visible always) -->
+      <div class="flex items-center space-x-2">
+        <img src="assets/shopping-cart (1).png" alt="Cart" class="h-6 w-6">
+        <span class="text-gray-700 font-medium">Cart ($56)</span>
+      </div>
+      
+    </nav>
+  </header>
 </body>
 </html>
