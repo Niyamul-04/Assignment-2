@@ -7,32 +7,33 @@
   <title>Flower Market</title>
 </head>
 <body class="bg-gray-50">
-     <header> 
-    <nav class="max-w-[1140px] mx-auto flex items-center justify-between px-4 h-[54px] md:h-[71px]">
+  <!-- Navber section -->
+     <header>
+   <nav class="max-w-[1140px] mx-auto flex items-center justify-between px-4 h-[54px] md:h-[71px]">
 
-      <!-- Logo/Website Name -->
-      <a href="#" class="flex items-center space-x-2">
-        <img src="assets/logo.png" alt="Logo" class="h-10 md:h-12" />
-        <span class="text-xl font-semibold text-gray-800"></span>
-      </a>
+    <!-- Logo/Website Name -->
+    <a href="niyamul.com" class="flex items-center space-x-2">
+      <img src="assets/logo.png" alt="Logo" class="h-10 md:h-12" />
+      <span class="text-xl font-semibold text-gray-800"></span>
+    </a>
 
-      <!-- Desktop Menu (Hidden on mobile) -->
-      <div class="hidden md:flex items-center space-x-8">
-        <a href="A" class="text-gray-600 hover:text-gray-900">Home</a>
-        <a href="B" class="text-gray-600 hover:text-gray-900">Shop</a>
-        <a href="C" class="text-gray-600 hover:text-gray-900">About Us</a>
-      </div>
+    <!-- Desktop Menu (Hidden on mobile) -->
+    <div class="hidden md:flex items-center space-x-8">
+      <a href="niyamul.com" class="text-gray-600 hover:text-orange-500 transition duration-200">Home</a>
+      <a href="niyamul.com" class="text-gray-600 hover:text-orange-500 transition duration-200">Shop</a>
+      <a href="niyamul.com" class="text-gray-600 hover:text-orange-500 transition duration-200">About Us</a>
+    </div>
 
-      <!-- Cart (Visible always) -->
-      <div class="flex items-center space-x-2">
-        <img src="assets/shopping-cart (1).png" alt="Cart" class="h-6 w-6" />
-        <span class="text-gray-700 font-medium">Cart ($56)</span>
-      </div>
+    <!-- Cart (Visible always) -->
+    <div class="flex items-center space-x-2">
+      <img src="assets/shopping-cart (1).png" alt="Cart" class="h-6 w-6" />
+      <span class="text-gray-700 font-medium">Cart ($56)</span>
+    </div>
 
-    </nav>
-  </header>
+  </nav>
+</header>
 
-  <!-- ✅ Flower Banner Section Starts Here -->
+<!-- Flower Banner Section Starts Here -->
 <section class="max-w-[1140px] h-auto mx-auto px-4 py-6 flex flex-col-reverse lg:flex-row items-end justify-between gap-4">
   
   <!-- Text Content -->
@@ -45,15 +46,13 @@
       Discover the vibrant charm of our freshest seasonal blooms. Whether you're celebrating love, friendship, or just brightening your day, our hand-picked flowers are perfect for every special moment.
     </p>
   </div>
-
   <!-- Image -->
   <div class="w-full lg:w-[570px] lg:h-[355px]">
     <img src="assets/hero-flower.png" alt="Fresh Flowers" class="w-full h-auto object-cover">
   </div>
 
 </section>
-<!-- ✅ Flower Banner Section Ends Here -->
-
+<!--  Flower Banner Section Ends Here -->
 <section class="py-12 px-4 flex flex-col items-center">
   <!-- Title & Subtitle -->
   <div class="text-center max-w-[1140px] w-full">
@@ -69,89 +68,92 @@
   <!-- Grid Cards -->
   <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-[20px] sm:gap-[30px] max-w-[1140px] w-full">
 
-    <!-- Card 1 to 8 (adjusted for desktop/mobile logic) -->
     <!-- Card 1 -->
     <div class="flex flex-col items-center">
       <img src="assets/sample-flower-image.png" alt="Lily Blossom"
-           class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
+        class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
       <p class="text-[12px] sm:text-[16px] font-medium">Lily Blossom</p>
       <p class="font-bold text-[12px] sm:text-[16px]">20 USD</p>
-      <button class="mt-2 w-[171px] sm:w-[270px] h-[50px] bg-[#E95A08] text-white text-[12px] font-semibold">
+      <a href="#" class="mt-2 w-[171px] sm:w-[270px] h-[50px] flex items-center justify-center bg-[#E95A08] text-white text-[12px] font-semibold hover:bg-orange-600 transition-all duration-200">
         ADD TO CART
-      </button>
+      </a>
     </div>
 
-    <!-- Repeat the same structure for remaining 7 cards -->
-
+    <!-- Card 2 -->
     <div class="flex flex-col items-center">
-      <img src="assets/sample-flower-image.png" alt="Lily Blossom"
-           class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
-      <p class="text-[12px] sm:text-[16px] font-medium">Lily Blossom</p>
-      <p class="font-bold text-[12px] sm:text-[16px]">20 USD</p>
-      <button class="mt-2 w-[171px] sm:w-[270px] h-[50px] bg-[#E95A08] text-white text-[12px] font-semibold">
+      <img src="assets/sample-flower-image.png" alt="Rose Elegance"
+        class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
+      <p class="text-[12px] sm:text-[16px] font-medium">Rose Elegance</p>
+      <p class="font-bold text-[12px] sm:text-[16px]">25 USD</p>
+      <a href="#" class="mt-2 w-[171px] sm:w-[270px] h-[50px] flex items-center justify-center bg-[#E95A08] text-white text-[12px] font-semibold hover:bg-orange-600 transition-all duration-200">
         ADD TO CART
-      </button>
+      </a>
     </div>
 
+    <!-- Card 3 -->
     <div class="flex flex-col items-center">
-      <img src="assets/sample-flower-image.png" alt="Lily Blossom"
-           class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
-      <p class="text-[12px] sm:text-[16px] font-medium">Lily Blossom</p>
-      <p class="font-bold text-[12px] sm:text-[16px]">20 USD</p>
-      <button class="mt-2 w-[171px] sm:w-[270px] h-[50px] bg-[#E95A08] text-white text-[12px] font-semibold">
+      <img src="assets/sample-flower-image.png" alt="Tulip Charm"
+        class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
+      <p class="text-[12px] sm:text-[16px] font-medium">Tulip Charm</p>
+      <p class="font-bold text-[12px] sm:text-[16px]">18 USD</p>
+      <a href="#" class="mt-2 w-[171px] sm:w-[270px] h-[50px] flex items-center justify-center bg-[#E95A08] text-white text-[12px] font-semibold hover:bg-orange-600 transition-all duration-200">
         ADD TO CART
-      </button>
+      </a>
     </div>
 
+    <!-- Card 4 -->
     <div class="flex flex-col items-center">
-      <img src="assets/sample-flower-image.png" alt="Lily Blossom"
-           class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
-      <p class="text-[12px] sm:text-[16px] font-medium">Lily Blossom</p>
-      <p class="font-bold text-[12px] sm:text-[16px]">20 USD</p>
-      <button class="mt-2 w-[171px] sm:w-[270px] h-[50px] bg-[#E95A08] text-white text-[12px] font-semibold">
+      <img src="assets/sample-flower-image.png" alt="Orchid Grace"
+        class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
+      <p class="text-[12px] sm:text-[16px] font-medium">Orchid Grace</p>
+      <p class="font-bold text-[12px] sm:text-[16px]">30 USD</p>
+      <a href="#" class="mt-2 w-[171px] sm:w-[270px] h-[50px] flex items-center justify-center bg-[#E95A08] text-white text-[12px] font-semibold hover:bg-orange-600 transition-all duration-200">
         ADD TO CART
-      </button>
+      </a>
     </div>
 
+    <!-- Card 5 -->
     <div class="flex flex-col items-center">
-      <img src="assets/sample-flower-image.png" alt="Lily Blossom"
-           class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
-      <p class="text-[12px] sm:text-[16px] font-medium">Lily Blossom</p>
-      <p class="font-bold text-[12px] sm:text-[16px]">20 USD</p>
-      <button class="mt-2 w-[171px] sm:w-[270px] h-[50px] bg-[#E95A08] text-white text-[12px] font-semibold">
+      <img src="assets/sample-flower-image.png" alt="Peony Passion"
+        class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
+      <p class="text-[12px] sm:text-[16px] font-medium">Peony Passion</p>
+      <p class="font-bold text-[12px] sm:text-[16px]">22 USD</p>
+      <a href="#" class="mt-2 w-[171px] sm:w-[270px] h-[50px] flex items-center justify-center bg-[#E95A08] text-white text-[12px] font-semibold hover:bg-orange-600 transition-all duration-200">
         ADD TO CART
-      </button>
+      </a>
     </div>
 
+    <!-- Card 6 -->
     <div class="flex flex-col items-center">
-      <img src="assets/sample-flower-image.png" alt="Lily Blossom"
-           class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
-      <p class="text-[12px] sm:text-[16px] font-medium">Lily Blossom</p>
-      <p class="font-bold text-[12px] sm:text-[16px]">20 USD</p>
-      <button class="mt-2 w-[171px] sm:w-[270px] h-[50px] bg-[#E95A08] text-white text-[12px] font-semibold">
+      <img src="assets/sample-flower-image.png" alt="Sunflower Smile"
+        class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
+      <p class="text-[12px] sm:text-[16px] font-medium">Sunflower Smile</p>
+      <p class="font-bold text-[12px] sm:text-[16px]">15 USD</p>
+      <a href="#" class="mt-2 w-[171px] sm:w-[270px] h-[50px] flex items-center justify-center bg-[#E95A08] text-white text-[12px] font-semibold hover:bg-orange-600 transition-all duration-200">
         ADD TO CART
-      </button>
+      </a>
     </div>
 
-    <!-- Desktop only -->
-    <div class="hidden sm:flex flex-col items-center">
-      <img src="assets/sample-flower-image.png" alt="Lily Blossom"
-           class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
-      <p class="text-[12px] sm:text-[16px] font-medium">Lily Blossom</p>
-      <p class="font-bold text-[12px] sm:text-[16px]">20 USD</p>
-       <button class="mt-2 w-[171px] sm:w-[270px] h-[50px] bg-[#E95A08] text-white text-[12px] font-semibold">
+    <!-- Card 7 - hidden on mobile -->
+    <div class="hidden lg:flex flex-col items-center">
+      <img src="assets/sample-flower-image.png" alt="Daisy Delight"
+        class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
+      <p class="text-[12px] sm:text-[16px] font-medium">Daisy Delight</p>
+      <p class="font-bold text-[12px] sm:text-[16px]">17 USD</p>
+      <a href="#" class="mt-2 w-[171px] sm:w-[270px] h-[50px] flex items-center justify-center bg-[#E95A08] text-white text-[12px] font-semibold hover:bg-orange-600 transition-all duration-200">
         ADD TO CART
-      </button>
+      </a>
     </div>
 
-    <div class="hidden sm:flex flex-col items-center">
-      <img src="assets/sample-flower-image.png" alt="Lily Blossom"
-           class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
-      <p class="text-[12px] sm:text-[16px] font-medium">Lily Blossom</p>
-      <p class="font-bold text-[12px] sm:text-[16px]">20 USD</p>
-      <button class="mt-2 w-[171px] sm:w-[270px] h-[50px] bg-[#E95A08] text-white text-[12px] font-semibold">
+    <!-- Card 8 - hidden on mobile -->
+    <div class="hidden lg:flex flex-col items-center">
+      <img src="assets/sample-flower-image.png" alt="Carnation Love"
+        class="w-[171px] sm:w-[270px] h-[196px] sm:h-[322.94px] object-cover mb-2" />
+      <p class="text-[12px] sm:text-[16px] font-medium">Carnation Love</p>
+      <p class="font-bold text-[12px] sm:text-[16px]">19 USD</p>
+      <a href="#" class="mt-2 w-[171px] sm:w-[270px] h-[50px] flex items-center justify-center bg-[#E95A08] text-white text-[12px] font-semibold hover:bg-orange-600 transition-all duration-200">
         ADD TO CART
-      </button>
+      </a>
     </div>
 
   </div>
@@ -250,56 +252,52 @@
         placeholder="Write email"
         class="w-full md:w-[650px] h-[50px] px-4 rounded border-none focus:outline-none text-black"
       />
-      <button
-        type="submit"
-        class="bg-[#E95A08] text-white px-6 h-[50px] w-full md:w-[180px] font-semibold rounded hover:brightness-110 transition-all"
-      >
-        Subscribe
-      </button>
+      <a href="niyamul.com/subscribe" 
+   class="bg-[#E95A08] text-white px-6 h-[50px] w-full md:w-[180px] font-semibold rounded hover:brightness-110 transition-all flex items-center justify-center">
+  Subscribe
+</a>
+
     </form>
   </div>
 </section>
-
 <!-- Footer Section -->
-<footer class="bg-white text-gray-700 py-10 px-4">
-  <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between gap-10 md:gap-0">
-    <!-- Left Column -->
+<footer class="bg-white w-full py-10 px-6 md:px-12">
+  <div class="max-w-[1120px] mx-auto flex flex-col md:flex-row justify-between gap-10">
+
+    <!-- Left: Logo & Text -->
     <div class="w-full md:w-[350px]">
-      <img src="assets/logo.png" alt="Faugei Logo" class="mb-4 w-[120px] h-auto" />
-      <p class="text-sm leading-relaxed">
+      <img src="assets/logo.png" alt="Faugei Logo" class="w-[120px] h-auto mb-4" />
+      <p class="text-sm leading-relaxed max-w-[300px]">
         Indulge your senses with the beauty and fragrance of our fresh flower shop.
       </p>
     </div>
 
-    <!-- Center Links -->
-    <div class="flex flex-wrap gap-8 justify-between w-full md:w-[600px] text-sm">
+    <!-- Center: Navigation Links -->
+    <div class="flex flex-col md:flex-row gap-10 w-full md:w-[600px] text-sm">
       <div class="flex flex-col space-y-2">
-        <a href="#" class="hover:text-orange-500">Home</a>
-        <a href="#" class="hover:text-orange-500">About Us</a>
-        <a href="#" class="hover:text-orange-500">Blog</a>
-        <a href="#" class="hover:text-orange-500">FAQ</a>
-        <a href="#" class="hover:text-orange-500">Contact Us</a>
+        <a href="niyamul.com" class="hover:text-orange-500 transition">Home</a>
+        <a href="niyamul.com" class="hover:text-orange-500 transition">About Us</a>
+        <a href="niyamul.com" class="hover:text-orange-500 transition">Blog</a>
+        <a href="niyamul.com" class="hover:text-orange-500 transition">FAQ</a>
+        <a href="niyamul.com" class="hover:text-orange-500 transition">Contact Us</a>
       </div>
       <div class="flex flex-col space-y-2">
-        <a href="#" class="hover:text-orange-500">Features</a>
-        <a href="#" class="hover:text-orange-500">Pricing</a>
-        <a href="#" class="hover:text-orange-500">Privacy Policy</a>
-        <a href="#" class="hover:text-orange-500">Terms of Service</a>
-        <a href="#" class="hover:text-orange-500">Help Center</a>
+        <a href="niyamul.com" class="hover:text-orange-500 transition">Features</a>
+        <a href="niyamul.com" class="hover:text-orange-500 transition">Pricing</a>
+        <a href="niyamul.com" class="hover:text-orange-500 transition">Privacy Policy</a>
+        <a href="niyamul.com" class="hover:text-orange-500 transition">Terms of Service</a>
+        <a href="niyamul.com" class="hover:text-orange-500 transition">Help Center</a>
       </div>
     </div>
 
-    <!-- Right Socials -->
-    <div class="flex flex-col items-start justify-between space-y-4 mt-6 md:mt-0">
-      <div class="flex space-x-4">
-        <a href="#" class="hover:scale-110 transition"><img src="assets/icon-linkedin.png" class="w-6" /></a>
-        <a href="#" class="hover:scale-110 transition"><img src="assets/icon-twitter.png" class="w-6" /></a>
-        <a href="#" class="hover:scale-110 transition"><img src="assets/icon-facebook.png" class="w-6" /></a>
-        <a href="#" class="hover:scale-110 transition"><img src="assets/icon-youtube.png" class="w-6" /></a>
-      </div>
+    <!-- Right: Social Media Icons -->
+    <div class="flex items-start space-x-4 mt-4 md:mt-0">
+      <a href="https://www.linkedin.com/in/niyamul-hasan-038b96327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="hover:scale-110 transition"><img src="assets/icon-linkedin.png" alt="LinkedIn" class="w-6 h-6" /></a>
+      <a href="niyamul.com" class="hover:scale-110 transition"><img src="assets/icon-twitter.png" alt="X (Twitter)" class="w-6 h-6" /></a>
+      <a href="https://www.facebook.com/niyamul.hasan.314738" class="hover:scale-110 transition"><img src="assets/icon-facebook.png" alt="Facebook" class="w-6 h-6" /></a>
+      <a href="https://www.youtube.com/@niyamulhasan000" class="hover:scale-110 transition"><img src="assets/icon-youtube.png" alt="YouTube" class="w-6 h-6" /></a>
     </div>
   </div>
 </footer>
-
 </body>
 </html>
